@@ -4,7 +4,8 @@ body {
 }
 
 body {
-	background-color: #e4e5e7;
+	background-color: #222222;
+	color: #fff;
 	padding-top: 30px;
 	display: flex;
 	flex-direction: column;
@@ -34,7 +35,7 @@ body {
 }
 .task-title--done {
 	text-decoration: line-through;
-	color: #cdcdcd;
+	color: #393939;
 }
 .task-item__buttons {
 	display: flex;
@@ -60,6 +61,27 @@ body {
 .empty-list__icon {
 	color: #42be2a;
 	font-size: 32px;
+}
+.card {
+	border: 1px solid rgba(122, 116, 116, 0.125);
+	border-radius: 10px;
+	background: transparent;
+}
+.card-header {
+	border-bottom: 1px solid rgba(122, 116, 116, 0.125);
+}
+#tasksList {
+	border: 1px solid #1f1f1f;
+	border-radius: 30px;
+}
+.list-group-item {
+	background: rgba(0, 0, 0, 0.75);
+	/* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+	/* backdrop-filter: blur(11px); */
+	/* -webkit-backdrop-filter: blur(11px); */
+	border-radius: 10px;
+	border: 0px solid rgba(255, 255, 255, 0.18);
+	margin-bottom: 1px;
 }
 .btn-action {
 	background-color: #e0e5ea;
@@ -97,8 +119,4 @@ body {
 	color: gray;
 	text-align: center;
 	margin-bottom: 30px;
-	/* position: absolute; */
-	/* bottom: 30px; */
-	/* left: 0; */
-	/* right: 0; */
 }
